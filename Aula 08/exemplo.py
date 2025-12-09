@@ -47,12 +47,3 @@ print("")
 print("Preço da Banana: " , estoque["Banana"]["preço"])
 print("Quantidade de Banana: " , estoque["Banana"]["quantidade"])
 # ------------------------------------------
-
-
-
-
-
-
-
-
-
