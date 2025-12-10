@@ -1,28 +1,33 @@
-#--------------------------------------
-print("Hello World D:") #CODE BY @evertin_bg
-#--------------------------------------
+print("------------------------------------------")
+print("    Hello World | 👑-JESUS is KING-👑") # CODE BY @evertin_bg
+print("------------------------------------------")
 
-# Definindo variáveis
-numero1 = "7"      #tipo: str
-numero2 = "53"     #tipo: str
-#--------------------------------------
+# Inserindo váriaveis
+numero1 = "7"
+numero2 = "53"
 
-# Mostrando tipos das varáveis numero1 e numero2
+# Tipos de classes das váriaveis
 print(type(numero1))
 print(type(numero2))
-#--------------------------------------
 
-# Convertendo o tipo das váriaveis para int
-int_numero1 = int(numero1)
-int_numero2 = int(numero2)
-#--------------------------------------
+# Convertendo váriaveis para int
+numero1_int = int(numero1)
+numero2_int = int(numero2)
 
-# Mostrando os novos valores das variáveis
-print(type(int_numero1))
-print(type(int_numero2))
-#--------------------------------------
+# ------------------------------------
+print("--------------------------")
+# ------------------------------------
 
-resultado = int_numero1 * int_numero2
+# Váriaveis depois da conversão
+print (type(numero1_int))
+print (type(numero2_int))
+
+# ------------------------------------
+print("--------------------------")
+# ------------------------------------
+
+# Multiplicando a 2 Váriaveis
+resultado = numero1_int * numero2_int
+
+# Resultado da multiplicação
 print(resultado)
-
-
