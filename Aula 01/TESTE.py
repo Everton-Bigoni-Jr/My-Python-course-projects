@@ -1,18 +1,36 @@
-print("Hello world")
 print("------------------------------------------")
-print("Escreva o seu nome")
+print("    Hello World | 👑-JESUS is KING-👑") # CODE BY @evertin_bg
+print("------------------------------------------")
+
+# Declarando as variáveis
+nome = ""
+idade = ""
+local = ""
+# -----------------------
+
+# Solicitando informações
+print("Digite seu nome:")
 nome = input()
 
-print("Informe sua idade")
+print("")
+
+print("Digite sua idade")
 idade = input()
 
-print("Informe o seu peso")
-peso = input()
+print("")
 
-print("------------------------------------------")
-print("------------------------------------------")
-print("------------------------------------------")
+print("Digite seu estado:")
+local = input()
+# -----------------------
 
-print("Seu nome é: " , nome ,)
-print("Você tem: " , idade , "anos")
-print("Seu peso é: " , peso , "KG")
+print("")
+print("----------------------------")
+print("")
+
+# Exibindo informações do usuário
+print("Seu nome é: " , nome)
+print("----------------------------")
+print("Sua idade é: " , idade)
+print("----------------------------")
+print("Seu estado é: " , local)
+print("----------------------------")
